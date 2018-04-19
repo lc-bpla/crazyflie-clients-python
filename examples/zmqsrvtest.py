@@ -121,7 +121,7 @@ class _CtrlThread(Thread):
 signal.signal(signal.SIGINT, signal.SIG_DFL)
 
 SRV_ADDR = "tcp://127.0.0.1"
-CF_URI = "radio://0/10/250K"
+CF_URI = "radio://0/80/250K"
 
 context = zmq.Context()
 client_conn = context.socket(zmq.REQ)
